@@ -1,7 +1,7 @@
 namespace Offset {
 constexpr uint64_t XenuineDecrypt = 0x0F4A5E28;
 constexpr uint64_t UWorld = 0x10BA8718;
-constexpr uint64_t GNames = 0x10DF79E0;
+constexpr uint64_t GNames = 0x10DF79C0;
 constexpr uint64_t GNamesPtr = 0x0;
 constexpr uint64_t ChunkSize = 0x403C;
 constexpr uint64_t GObjects = 0x10B69890;
@@ -208,5 +208,6 @@ constexpr uint64_t mPhysXScene = 0xD0;
 constexpr uint64_t rigid_dynamics = 0x3B98;
 constexpr uint64_t Unreal_Engine = 0x10BA4A20;
 }
+
 
 
