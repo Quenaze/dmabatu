@@ -1,5 +1,10 @@
-namespace Offset {
-constexpr uint64_t XenuineDecrypt = 0x0F4A5E28;
+// Process ID: 14553
+// Module Address: 7FF6E67A0000
+// --------------------------------------------- 
+// ---------------------------------------------
+namespace Offset
+{
+constexpr uint64_t XenuineDecrypt = 0xF4A5E28;
 constexpr uint64_t UWorld = 0x10BA8718;
 constexpr uint64_t GNames = 0x10DF79C0;
 constexpr uint64_t GNamesPtr = 0x0;
@@ -25,8 +30,8 @@ constexpr uint64_t DecryptNameIndexSval = 0xF;
 constexpr uint64_t DecryptNameIndexDval = 0x11;
 
 constexpr uint64_t ViewTarget = 0x440;
-constexpr uint64_t CameraCacheLocation = 0x324;
-constexpr uint64_t CameraCacheRotation = 0x330;
+constexpr uint64_t CameraCacheLocation = 0xA84;
+constexpr uint64_t CameraCacheRotation = 0xAB0;
 constexpr uint64_t CameraCacheFOV = 0xA94;
 
 constexpr uint64_t LastTeamNum = 0x1368;
@@ -208,7 +213,3 @@ constexpr uint64_t mPhysXScene = 0xD0;
 constexpr uint64_t rigid_dynamics = 0x3B98;
 constexpr uint64_t Unreal_Engine = 0x10BA4A20;
 }
-
-
-
-
