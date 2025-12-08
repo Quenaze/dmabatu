@@ -100,7 +100,7 @@ constexpr uint64_t PartnerLevel = 0x96E;
 constexpr uint64_t SurvivalTier = 0xC88;
 constexpr uint64_t SurvivalLevel = 0xC8C;
 
-constexpr uint64_t CharacterClanInfo = 0x8C8;
+constexpr uint64_t CharacterClanInfo = 0x8D8;
 
 constexpr uint64_t EquippedWeapons = 0x208;
 constexpr uint64_t WeaponProcessor = 0x980;
@@ -213,5 +213,6 @@ constexpr uint64_t mPhysXScene = 0xD0;
 constexpr uint64_t rigid_dynamics = 0x3B98;
 constexpr uint64_t Unreal_Engine = 0x10BA4A20;
 }
+
 
 
