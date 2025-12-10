@@ -1,8 +1,4 @@
-// Module Address: 7FF675F20000
-// https://github.com/DreamyDuck/PUBG-offset/
-// Time: 2025-12-10
-// --------------------------------------------- 
-// ---------------------------------------------
+
 namespace Offset
 {
 constexpr uint64_t XenuineDecrypt = 0xF3CAF28;
@@ -215,5 +211,6 @@ constexpr uint64_t mPhysXScene = 0xD0;
 constexpr uint64_t rigid_dynamics = 0x3B98;
 constexpr uint64_t Unreal_Engine = 0x10B49E20;
 }
+
 
 
