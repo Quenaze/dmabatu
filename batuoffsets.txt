@@ -36,7 +36,7 @@ constexpr uint64_t TeamNumber = 0x1938;
 constexpr uint64_t MyHUD = 0x4D0;
 constexpr uint64_t BlockInputWidgetList = 0x5B0;
 constexpr uint64_t bShowMouseCursor = 0x660;
-constexpr uint64_t ComponentLocation = 0x360;
+constexpr uint64_t ComponentLocation = 0x110;
 constexpr uint64_t ComponentToWorld = 0x2c0;
 constexpr uint64_t CharacterState = 0x1C78;
 constexpr uint64_t CharacterName = 0x11b0;
@@ -224,6 +224,7 @@ constexpr uint64_t mPhysXScene = 0xD0;
 constexpr uint64_t rigid_dynamics = 0x3B98;
 constexpr uint64_t Unreal_Engine = 0x10B49E20;
 }
+
 
 
 
