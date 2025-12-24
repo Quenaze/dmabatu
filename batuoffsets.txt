@@ -18,14 +18,14 @@ constexpr uint64_t PlayerController = 0x38;
 constexpr uint64_t AcknowledgedPawn = 0x4A8;
 constexpr uint64_t PlayerCameraManager = 0x4e8;
  
-constexpr uint64_t ObjID = 0x18;
+constexpr uint64_t ObjID = 0x28;
 constexpr uint64_t DecryptNameIndexRor = 0x1;
 constexpr uint64_t DecryptNameIndexXorKey1 = 0x6B6D93A9;
 constexpr uint64_t DecryptNameIndexXorKey2 = 0x884B1099;
-constexpr uint64_t DecryptNameIndexXorKey3 = 0xff000000;
-constexpr uint64_t DecryptNameIndexRval = 0x24;
-constexpr uint64_t DecryptNameIndexSval = 0x8;
-constexpr uint64_t DecryptNameIndexDval = 0x0;
+constexpr uint64_t DecryptNameIndexXorKey3 = 0xFF0000;  // mask olarak kullan
+constexpr uint64_t DecryptNameIndexRval = 0x24;           // rotate ve left shift miktarı
+constexpr uint64_t DecryptNameIndexSval = 0x8;            // orta kısım shift
+constexpr uint64_t DecryptNameIndexDval = 0x0;          // ekstra XOR yok
  
 constexpr uint64_t ViewTarget = 0x1630;
 constexpr uint64_t CameraCacheLocation = 0xa2c;
@@ -218,6 +218,7 @@ constexpr uint64_t mPhysXScene = 0xD0;
 constexpr uint64_t rigid_dynamics = 0x3B98;
 constexpr uint64_t Unreal_Engine = 0x10B49E20;
 }
+
 
 
 
