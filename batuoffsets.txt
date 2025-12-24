@@ -18,9 +18,9 @@ constexpr uint64_t PlayerCameraManager = 0x4e8;
 
 constexpr uint64_t ObjID = 0x28;
 constexpr uint64_t DecryptNameIndexRor = 0x1;
-constexpr uint64_t DecryptNameIndexXorKey1 = 0xA3B2CC76;
-constexpr uint64_t DecryptNameIndexXorKey2 = 0x18A2BF21;
-constexpr uint64_t DecryptNameIndexXorKey3 = 0xFFFF0000;
+constexpr uint64_t DecryptNameIndexXorKey1 = 0x6B6D93A9;
+constexpr uint64_t DecryptNameIndexXorKey2 = 0x884B1099;
+constexpr uint64_t DecryptNameIndexXorKey3 = 0xffffffff;
 constexpr uint64_t DecryptNameIndexRval = 0xA;
 constexpr uint64_t DecryptNameIndexSval = 0xF;
 constexpr uint64_t DecryptNameIndexDval = 0x0;
@@ -224,5 +224,6 @@ constexpr uint64_t mPhysXScene = 0xD0;
 constexpr uint64_t rigid_dynamics = 0x3B98;
 constexpr uint64_t Unreal_Engine = 0x10B49E20;
 }
+
 
 
